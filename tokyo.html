@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="layout.css">
+</head>
+<body>
+
+<h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<form action="tokyo.jsp" method="GET">
+<section>
+  <nav style="height: 570px;">
+    <ul >
+      <li><a href="cities.html">London</a></li>
+      <li><a href="paris.html">Paris</a></li>
+      <li><a href="tokyo.html">Tokyo</a></li>
+    </ul>
+  </nav>
+
+
+  <article style="height:570px;">
+      <fieldset>
+          <legend><h2>개인 정보 입력</h2></legend>
+          <p>&nbsp;아&nbsp;이&nbsp;디 : <input type="text" name="id">
+          <input type="submit" value="ID중복검사">
+          </p>
+
+          <p>생년월일 : <input type="date" name="hireDate"><br></p>
+
+          <p>성별: 
+          <input type="radio" name="sex"" value="male">남자
+          <input type="radio" name="sex" value="female">여자
+          </p>
+
+          <p>E-mail : <input type="text" name="email"></p>
+
+          <p>메일수신: 
+              <input type="radio" name="yesorno"" value="yesSNS">수신동의
+              <input type="radio" name="yesorno" value="noSNS">수신거부
+          </p>
+
+          <p>핸드폰:
+              <select name="phone">
+                  <option value="010">010</option>
+                  <option value="011">011</option>
+                  <option value="016">016</option>
+                  <option value="000">000</option>
+              </select> - <input type="text" name="phone1"> - <input type="text" name="phone2"><br>
+          </p>
+
+          <p>직업: 
+              <select name="job">
+                  <option value="학생">학생</option>
+                  <option value="선생">선생</option>
+                  <option value="백수">백수</option>
+                  <option value="회사원">회사원</option>
+              </select>
+          </p>
+
+          <p>취미:
+              <input type="checkbox" name="ck" value="shop">쇼핑
+              <input type="checkbox" name="ck" value="internet">인터넷
+              <input type="checkbox" name="ck" value="music">음악감상
+              <input type="checkbox" name="ck" value="reading">독서
+              <input type="checkbox" name="ck" value="sports">스포츠
+          </p>
+
+          <p>자기소개
+              <textarea rows="5" cols="50" name=textArea></textarea>
+          </p>
+      </fieldset>
+      <input type="submit" value="등록">
+      <input type="reset" value="초기화">
+  </article>
+</section>
+</form>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>

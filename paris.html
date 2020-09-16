@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="layout.css">
+</head>
+<body>
+
+<h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="cities.html">London</a></li>
+      <li><a href="paris.html">Paris</a></li>
+      <li><a href="tokyo.html">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <table border="3">
+      <caption>&lt;이력서&gt;</caption>
+
+      <tr>
+          <td rowspan="4"><a href="https://www.naver.com" target="_blank">
+                          <img src="11.jpg" width="90px" height="110px"></a></td>
+          <td colspan="3" align="center">이 력 서</td>
+      </tr>
+
+
+      <tr>
+          <td rowspan="2" align="center">성&nbsp;&nbsp;&nbsp;명</td>
+          <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;김현동 (인)&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td align="center">주민등록번호</td>
+      </tr>
+
+
+      <tr>
+          <td>&nbsp;&nbsp;940616-1681111&nbsp;&nbsp;</td>
+      </tr>
+
+
+      <tr>
+          <td>생&nbsp;년&nbsp;월&nbsp;일</td>
+          <td colspan="3" align="center">1994년&nbsp;6월&nbsp;16일생&nbsp;(만&nbsp;&nbsp;26세)</td>
+      </tr>
+
+
+      <tr>
+          <td rowspan="2" align="center">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</td>
+          <td colspan="3" align="center">대구 서구통학로 39 3동 505호</td>
+      </tr>
+  </table>
+   
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
